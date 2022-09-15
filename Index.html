@@ -11,10 +11,13 @@
     <p id="description">Thank you for taking time to help us improve the platform</p>
     <div id="content">
     <form id="survey-form">
+        <fieldset>
         <label for="name-label">Name <input type="text" id="name" placeholder="Please enter the name here"></label>
         <label for="email-label">Email <input type="email" id="email" placeholder="Pleace enter the email here"></label>
         <label for="age-label">Age (<i>option</i>) <input type="number" id="number" min="10" max="50" placeholder="Age"></label>
-        <label for="dropdown-label">
+        </fieldset>
+        <fieldset>
+    <label for="dropdown-label">Which option best describes your current role?
             <select id="dropdown">
                 <option disabled>Select Current role</option>
                 <option>Student</option>
@@ -24,21 +27,27 @@
                 <option>Other</option>
             </select>
         </label>
+    </fieldset>
+       <fieldset>
         <label for="radio-label">Would you recommend freeCodeCamp to a friend?
             Defenitly <input type="radio">
             Maybe <input type="radio">
             Not sure <input type="radio">
         </label>
+    </fieldset>
+      <fieldset>
         <label for="check-label">Would you like to see improved (check that all apply)
             Front-end <input type="checkbox">
             Back-end <input type="checkbox">
-            Data visualazation <input type="checkbox">
+            Data visualization <input type="checkbox">
         </label>
+    </fieldset>
+      <fieldset>
         <label for="textarea-label">Any comments or suggestions</label>
         <textarea rows="5" cols="50">Enter your comment here...</textarea>
 
-        <button type="submit">submit</button>
-
+        <button type="submit">Submit</button>
+    </fieldset>
     </form>
     </div>
 </body>
