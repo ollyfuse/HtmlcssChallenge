@@ -1,0 +1,19 @@
+body{
+    background-color: cadetblue;
+    align-content: center;
+}
+.content{
+    background-color: blue;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+}
+input{
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+}
+#header{
+    text-align: center;
+}
